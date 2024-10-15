@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7accd977b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="log.png" alt="Logo" class ="logo">
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            
+            </nav>
+            
+
+            <div class="header-text">
+                <img src="mai.jpeg" alt ="up" class="me">
+                <h1 class="typing-text"></h1>
+<h1>Hi, I'm <span>Rudra</span><br> developer from India .</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="maii.jpeg" alt="About Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am learning how to create a website responsive and captivating.For that I am learning the CSS and Javascript.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>C language</span><br> Application of array,linked list,structure etc. 
+                            </li>
+                            <li>
+                                <span>Web Development</span><br>Website designing using HTML,CSS and Javascript.
+                            </li>
+                            <li>
+                                <span>Python</span><br>Application of Python.Library like pandas,numpy and matplotlib etc.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2023-Current</span><br>Bachelor In Technology in Computer Science form Ajay Kumar Garg Engineering College,Ghaziabad.
+                            </li>
+                            <li>
+                                <span>2021-2022</span><br>Prepared For Joint Enterance Exam.
+                            </li>
+                            <li>
+                                <span>2020-2021</span><br>Class 11th Preparation .
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2020</span><br>High School from Divine Public School,Ambedkar Nagar.
+                            </li>
+                            <li>
+                                <span>2022</span><br>Intermediate from Divine Public School,Ambedkar Nagar.
+                            </li>
+                            <li>
+                                <span>2023-Current</span><br>B.Tech in CSE from Ajay Kumar Garg Engineering College,Ghaziabad.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Learn website creation in an efficient way. We will teach you how to create.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>C language</h2>
+                    <p>Learn the C language efficiently. We will teach you how to work in C language.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python </h2>
+                    <p>Learn Python in an efficient way. We will teach you how to work in Python.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pk.jpg" alt="Social Media App">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>We will tell you hoe to create a portfolio using HTML,CSS and Javascript. Download it from the Play Store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gpt.jpg" alt="Online Shopping App">
+                    <div class="layer">
+                        <h3>Chatgpt prompting</h3>
+                        <p>We will tell you how to write a promt in Chatgpt. Download it from the Play Store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="emp.jpg" alt="Music App">
+                    <div class="layer">
+                        <h3>Employee Management</h3>
+                        <p>We created a employee management system using my sql and pyhon.Visit me for the source code.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp-duotone fa-solid fa-envelope"></i> rudrapal9b38@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9564485849</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="uppal.jpeg" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Rudra. Made by UniqueRudra</p>
+    </div>
+
+    <script>
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
